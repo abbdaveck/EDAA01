@@ -1,0 +1,21 @@
+package sudoku2;
+
+public class GoSudoku {
+
+	public static void main(String[] args) {
+		SudokuInterface i = new SudokuInterface();
+
+		
+		SudokuSolver s = new MySudokuSolver();	
+		int[][] m= new int[9][9];
+		m = new int[][] { { 0, 0, 8, 0, 0, 9, 0, 6, 2 }, { 0, 0, 0, 0, 0, 0, 0, 0, 5 },
+			{ 1, 0, 2, 5, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 1, 0, 0, 9, 0 }, { 0, 5, 0, 0, 0, 0, 6, 0, 0 },
+		{ 6, 0, 0, 0, 0, 0, 0, 2, 8 }, { 4, 1, 0, 6, 0, 8, 0, 0, 0 }, { 8, 6, 0, 0, 3, 0, 1, 0, 0 },
+			{ 0, 0, 0, 0, 0, 0, 4, 0, 0 } };
+			s.setMatrix(m);
+			SudokuInterface i = new SudokuInterface(m);
+			
+
+	}
+
+}

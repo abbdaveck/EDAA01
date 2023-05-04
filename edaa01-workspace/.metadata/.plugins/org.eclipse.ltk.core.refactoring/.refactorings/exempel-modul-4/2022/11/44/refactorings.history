@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;exempel-modul-4&apos;&#x0A;- Original project: &apos;exempel-modul-4&apos;&#x0A;- Original elements:&#x0A;     exempel-modul-4/src/interface_complexnumber&#x0A;     exempel-modul-4/src/interface_measurable&#x0A;     exempel-modul-4/src/jcf" description="Delete elements" element1="/src&lt;jcf" element2="/src&lt;interface_measurable" element3="/src&lt;interface_complexnumber" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1667289209052" subPackages="false" version="1.0"/>
+</session>
